@@ -144,7 +144,7 @@ impl FftView<'_> {
     ///
     /// # Postconditions
     ///
-    /// this function leaves all the elements of `fourier` in an initialized state.
+    /// This function leaves all the elements of `fourier` in an initialized state.
     ///
     /// # Panics
     ///
@@ -164,7 +164,7 @@ impl FftView<'_> {
     ///
     /// # Postconditions
     ///
-    /// this function leaves all the elements of `fourier` in an initialized state.
+    /// This function leaves all the elements of `fourier` in an initialized state.
     ///
     /// # Panics
     ///
@@ -184,7 +184,7 @@ impl FftView<'_> {
     ///
     /// # Postconditions
     ///
-    /// this function leaves all the elements of `standard` in an initialized state.
+    /// This function leaves all the elements of `standard` in an initialized state.
     ///
     /// # Panics
     ///

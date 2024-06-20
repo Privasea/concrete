@@ -121,7 +121,7 @@ public:
 
   // Generalize by computing shape by template recursion
 
-  /// Set a argument at the given pos as a 1D tensor of T.
+  /// Set an argument at the given pos as a 1D tensor of T.
   template <typename T>
   outcome::checked<void, StringError> pushArg(T *data, int64_t dim1,
                                               KeySet &keySet) {

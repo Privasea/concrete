@@ -13,7 +13,7 @@ extern "C" {
 #endif
 
 /// The CAPI should be really careful about memory allocation. Every pointer
-/// returned should points to a new buffer allocated for the purpose of the
+/// returned should point to a new buffer allocated for the purpose of the
 /// CAPI, and should have a respective destructor function.
 
 /// Opaque type declarations. Inspired from
