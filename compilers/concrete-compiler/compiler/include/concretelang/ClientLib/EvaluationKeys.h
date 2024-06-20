@@ -90,7 +90,7 @@ public:
                   KeyswitchKeyParam parameters)
       : _buffer(buffer), _parameters(parameters){};
 
-  /// @brief Returns the buffer that hold the keyswitch key.
+  /// @brief Returns the buffer that holds the keyswitch key.
   const uint64_t *buffer() const { return _buffer->data(); }
   size_t size() const { return _buffer->size(); }
 
