@@ -19,7 +19,7 @@ namespace crt {
 /// \returns The product of moduli
 uint64_t productOfModuli(std::vector<int64_t> moduli);
 
-/// Compute the crt decomposition of a `val` according the given `moduli`.
+/// Compute the crt decomposition of a `val` according to the given `moduli`.
 ///
 /// \param moduli The moduli to compute the decomposition.
 /// \param val The value to decompose.
