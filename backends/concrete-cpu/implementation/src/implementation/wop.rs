@@ -247,7 +247,7 @@ pub fn circuit_bootstrap_boolean(
         fourier_bsk_output_lwe_dimension,
     );
 
-    // Output for every pfksk that that come from the output GGSW
+    // Output for every pfksk that come from the output GGSW
     let mut out_pfksk_buffer_iter = ggsw_out
         .into_data()
         .chunks_exact_mut((glwe_params.dimension + 1) * glwe_params.polynomial_size)
