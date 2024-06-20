@@ -120,7 +120,7 @@ def compute_ops_per_dollar(data_point, product_hourly_cost):
     Compute numbers of operations per dollar for a given ``data_point``.
 
     :param data_point: timing value measured during benchmark in nanoseconds
-    :param product_hourly_cost: cost in dollar per hour of hardware used
+    :param product_hourly_cost: cost in dollars per hour of hardware used
 
     :return: number of operations per dollar
     """
