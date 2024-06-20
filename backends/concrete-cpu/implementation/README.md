@@ -12,7 +12,7 @@ The `concrete-cpu` project is implemented thanks Rust, thus as the main prerequi
 
 ### Setting RUSTFLAGS
 
-As mentionned before the `concrete-cpu` project aims to use moderns CPU features, to be sure to activate all that is available in your machine you can export the following rust flags:
+As mentioned before the `concrete-cpu` project aims to use moderns CPU features, to be sure to activate all that is available in your machine you can export the following rust flags:
 
 ```
 export RUSTFLAGS="-C target-cpu=native"
